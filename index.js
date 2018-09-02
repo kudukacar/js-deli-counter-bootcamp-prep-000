@@ -17,6 +17,6 @@ function currentLine(katzDeliLine) {
         for (let i = 0; i < katzDeliLine.length; i++) {
           var number = Number(i) + 1;
           var text = number + ". " + katzDeliLine[i];
-      return "The line is currently: " +  + ".";
+      return "The line is currently: " + text + ".";
   }
 }
