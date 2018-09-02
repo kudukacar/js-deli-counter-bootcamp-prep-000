@@ -16,7 +16,6 @@ function currentLine(katzDeliLine) {
       else {
         var text;
         for (let i = 0; i < katzDeliLine.length; i++) {
-          text = katzDeliLine[i];
-      return text}
+          console.log(katzDeliLine[i]);}
 }
 }
