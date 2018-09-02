@@ -14,7 +14,6 @@ function currentLine(katzDeliLine) {
     if (katzDeliLine.length === 0) {
       return "The line is currently empty.";}
       else {
-        var emptyArray[];
         for (let i = 0; i < katzDeliLine.length; i++) {
           var number = Number(i) + 1;
           var text = number + ". " + katzDeliLine[i];
