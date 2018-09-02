@@ -15,10 +15,10 @@ function currentLine(katzDeliLine) {
       return "The line is currently empty.";}
       else {
         for (let i = 0; i < katzDeliLine.length; i++) {
+         var emptyArray[];
           var number = Number(i) + 1;
           var text = number + ". " + katzDeliLine[i];
-          var emptyArray.push(text);
-      return "The line is currently: " + text + ".";
-        }
+          emptyArray.push(text);}
+      return "The line is currently: " + emptyArray + ".";
   }
 }
